@@ -16,9 +16,9 @@ defmodule Me do
     "Álvaro Santana"
   end
 
-  @spec favorite_languages() :: [languages]
+  @spec favorite_language() :: [languages]
   def favorite_language do
-  [:elixir, :typescript, :ruby]
+  [:elixir]
   end
 
   @spec technical_skills() :: [String.t()]
@@ -31,15 +31,6 @@ defmodule Me do
     %{
       :elixir => "I want to deepen my knowledge of the language and explore other areas of application.",
       :english => "I want to improve my communication and writing skills."
-    }
-  end
-
-  @spec projects() :: map()
-  def projects do
-    %{
-      :designo => "https://github.com/alvaronassan/designo",
-      :myths => "https://github.com/alvaronassan/myths",
-      :audiophile => "https://github.com/alvaronassan/audiophile",
     }
   end
 
