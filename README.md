@@ -1,16 +1,27 @@
-## Hi there 👋
+![](img/Elixir.png)
 
-<!--
-**alvaronassan/alvaronassan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+```elixir
+defmodule Me do
+  @moduledoc """
+    user profile description
+  """
+  @type languages :: :elixir | :typescript | :ruby
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  @spec name() :: String.t()
+  def name do
+    "Alvaro Santana"
+  end
+
+  @spec favorite_languages() :: [language]
+  def favorite_language do
+  [:elixir, :typescript, :ruby]
+  end
+
+  @spec hobbies() :: String.t()
+  def hobbies do
+    "Sometimes I write some horror tales, sometimes I draw"
+  end
+end
+```
