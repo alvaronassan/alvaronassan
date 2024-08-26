@@ -9,14 +9,38 @@ defmodule Me do
   """
   @type languages :: :elixir | :typescript | :ruby
 
+  @type languages_spoken :: :pt | :es | :en
+
   @spec name() :: String.t()
   def name do
-    "Alvaro Santana"
+    "Álvaro Santana"
   end
 
-  @spec favorite_languages() :: [language]
+  @spec favorite_languages() :: [languages]
   def favorite_language do
   [:elixir, :typescript, :ruby]
+  end
+
+  @spec technical_skills() :: [String.t()]
+  def technical_skills do
+    ["Phoenix", "Liveview","Ecto", "GrahQL", "Docker", "React", "Astro"]
+  end
+
+  @spec goals() :: map()
+  def goals do
+    %{
+      :elixir => "I want to deepen my knowledge of the language and explore other areas of application.",
+      :english => "I want to improve my communication and writing skills."
+    }
+  end
+
+  @spec projects() :: map()
+  def projects do
+    %{
+      :designo => "https://github.com/alvaronassan/designo",
+      :myths => "https://github.com/alvaronassan/myths",
+      :audiophile => "https://github.com/alvaronassan/audiophile",
+    }
   end
 
   @spec hobbies() :: String.t()
