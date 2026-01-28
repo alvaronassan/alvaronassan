@@ -2,11 +2,7 @@
 
 Front-end developer focused on high-performance interfaces and clean UI architecture.
 
-I work mainly with front-end development, building performant, scalable, and well-structured user interfaces.
-I have a background in UI design, which strongly influences my approach to usability and visual consistency.
-
-Currently, I am studying backend development with Elixir, focusing on functional programming concepts and system design.
-Game development with Godot Engine is a personal hobby and research interest.
+I work mainly with front-end development, building performant, scalable, and well-structured user interfaces. I have a background in UI design, which strongly influences my approach to usability and visual consistency. Currently, I am studying backend development with Elixir, focusing on functional programming concepts and system design. Game development with Godot Engine is a personal hobby and research interest.
 
 ## 💼 Main Focus
 
@@ -23,18 +19,10 @@ Game development with Godot Engine is a personal hobby and research interest.
 - Tailwind CSS
 - HTML5 • CSS3
 
-### Secondary
-- Zustand
-- Storybook
-
 ### Studying
 - Elixir
 - Phoenix / LiveView
 - Functional programming
-
-### Hobby
-- Godot Engine
-- GDScript
 
 ## 🎯 Professional Goal
 
